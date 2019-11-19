@@ -48,3 +48,11 @@ def Intersection(list_1,list_2):
         if i in list_2:
             intersection.append(i)
     print('OUTPUT ',intersection)
+
+def NotIn(list_1,list_2):
+    excluded = []
+    for i in list_1:
+        if i not in list_2:
+            excluded.append(i)
+    print('OUTPUT ',excluded)
+            
