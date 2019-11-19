@@ -40,4 +40,11 @@ def Union(list_1,list_2):
     for i in list_1:
         if i in list_2:
             list_2.remove(i)
-    print(list_1 + list_2)
+    print('OUTPUT ',list_1 + list_2)
+
+def Intersection(list_1,list_2):
+    intersection = []
+    for i in list_1:
+        if i in list_2:
+            intersection.append(i)
+    print('OUTPUT ',intersection)
